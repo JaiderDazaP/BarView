@@ -1,0 +1,32 @@
+Integrantes:
+-Jaider Daza
+-Gabriela Luigi
+-Laura Virguez
+
+A TENER EN CUENTA:
+
+1. path que toca modificar para que funcione
+	1.1. NegocioSistRenta
+		Integracion
+			integracionJsonPropiedades.java
+				LINE 33 "rutaCarpeta + \propiedades.json"
+
+			integracRentaToJson.java
+				Line 22 "rutaCarpeta + \renta.json"
+
+
+	1.2. PresentacionSistRenta
+		Presentacion
+			pantallaIniciarSesion.java
+				LINE 36 "rutaCarpeta + \imagenCasa.jpg"
+
+			pantallaGuardarRenta.java
+				LINE 55 "rutaCarpeta + \enjoy.png"
+
+
+2.path de VM Options:
+	Abrir properties de PresentacionSistRent
+	ir a categoria Run en la izquierda
+	En VM Options colocar:--module-path "ubicacionDeSDKdeJavaFx\javafx-sdk-17.0.1\lib" --add-modules javafx.controls,javafx.fxml
+
+3.Cualquier cosa estamos disponibles.

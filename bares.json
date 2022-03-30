@@ -1,0 +1,55 @@
+[
+    {
+        "Nombre": "Bungalow rooftop",
+        "Direccion": "Cra. 13 ## 83-47",
+        "Puntaje": "4.3",
+        "servicios": [
+            
+        ]
+    },
+    {
+        "Nombre": "Guisqui bar",
+        "Direccion": "Calle 81#12-44",
+        "Puntaje": "3.6",
+        "servicios": [
+        ]
+    },
+    {
+        "Nombre": "THE IRISH",
+        "Direccion": "Carrera 12A No. 83-48",
+        "Puntaje": "3.1",
+        "servicios": [
+           
+        ]
+    },
+    {
+        "Nombre": "ANDRES DC CALLE 85",
+        "Direccion": "Cl. 82 No. 12 -21",
+        "Puntaje": "3",
+        "servicios": [
+            
+        ]
+    },
+    {
+        "Nombre": "INCOGNITO",
+        "Direccion": "Cra. 14 No. 85-37",
+        "Puntaje": "3.9",
+        "servicios": []
+    },
+    {
+        "Nombre": "SALVADOR BAR",
+        "Direccion": "calle 85 nº 12-71",
+        "Puntaje": "4.5",
+        "servicios": [
+           
+        ]
+    },
+    {
+        "Nombre": "Neiva York",
+        "Direccion": "Calle 8 #55-621",
+        "Puntaje": "4.9",
+        "servicios": [
+            
+        ]
+    }
+]
