@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="338.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentacion.PantallaInicioController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="338.0" stroke="BLACK" strokeType="INSIDE" width="595.0">
+         <fill>
+            <RadialGradient centerY="0.4904761904761905" cycleMethod="REFLECT" focusDistance="0.5116279069767442" radius="0.37209302325581395">
+               <stops>
+                  <Stop color="#3c342bb8" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Label fx:id="labBienvenido" layoutX="243.0" layoutY="26.0" text="BarView">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegistrarse" layoutX="352.0" layoutY="284.0" mnemonicParsing="false" onAction="#registrase" text="REGISTRARSE" />
+      <Button fx:id="btnIniciarSesion" layoutX="163.0" layoutY="284.0" mnemonicParsing="false" onAction="#iniciarSesion" text="Iniciar Sesion" />
+      <ImageView fitHeight="199.0" fitWidth="369.0" layoutX="123.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\jdavd\Desktop\ProyectoFundamentos\barInicio.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="337.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentacion.PantallaRegistroController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="338.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="595.0">
+         <fill>
+            <RadialGradient centerY="0.4904761904761905" cycleMethod="REFLECT" focusDistance="0.5116279069767442" radius="0.37209302325581395">
+               <stops>
+                  <Stop color="#3c342bb8" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill></Rectangle>
+      <Label fx:id="labUsuario" layoutX="166.0" layoutY="77.0" text="Usuario: " />
+      <Label fx:id="labContra" layoutX="147.0" layoutY="115.0" text="Contraseña: " />
+      <Label fx:id="labBienvenido" layoutX="239.0" layoutY="21.0" text="Registrate:">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsuario" layoutX="222.0" layoutY="73.0" prefHeight="25.0" prefWidth="234.0" />
+      <Button fx:id="btnRegistro" layoutX="266.0" layoutY="285.0" mnemonicParsing="false" onAction="#registro" text="REGISTRARSE" />
+      <PasswordField fx:id="txtContra" layoutX="222.0" layoutY="111.0" prefHeight="25.0" prefWidth="234.0" />
+      <Button fx:id="btnRegresar" layoutX="517.0" layoutY="21.0" mnemonicParsing="false" onAction="#regresar" text="Regresar" />
+      <Label fx:id="labCel" layoutX="168.0" layoutY="147.0" text="Celular: " />
+      <Label fx:id="labCorr" layoutX="170.0" layoutY="209.0" text="Correo:" />
+      <Label fx:id="labCed" layoutX="139.0" layoutY="178.0" text="Num Cedula: " />
+      <TextField fx:id="txtCel" layoutX="222.0" layoutY="143.0" prefHeight="25.0" prefWidth="234.0" />
+      <TextField fx:id="txtCed" layoutX="219.0" layoutY="174.0" prefHeight="25.0" prefWidth="234.0" />
+      <TextField fx:id="txtCorr" layoutX="219.0" layoutY="205.0" prefHeight="25.0" prefWidth="234.0" />
+      <Label fx:id="labGen" layoutX="169.0" layoutY="243.0" text="Genero:" />
+      <TextField fx:id="txtGen" layoutX="219.0" layoutY="239.0" prefHeight="25.0" prefWidth="234.0" />
+   </children>
+</AnchorPane>

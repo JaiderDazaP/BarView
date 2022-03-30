@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="338.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentacion.PantallaIniciarSesionController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="338.0" layoutX="-5.0" stroke="BLACK" strokeType="INSIDE" width="595.0">
+         <fill>
+            <RadialGradient centerY="0.4904761904761905" cycleMethod="REFLECT" focusDistance="0.5116279069767442" radius="0.37209302325581395">
+               <stops>
+                  <Stop color="#3c342bb8" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Button fx:id="btnRegresar" layoutX="506.0" layoutY="28.0" mnemonicParsing="false" onAction="#regresar" text="REGRESAR" />
+      <PasswordField fx:id="txtContra" layoutX="143.0" layoutY="193.0" />
+      <Button fx:id="btnIniciarSesion" layoutX="117.0" layoutY="256.0" mnemonicParsing="false" onAction="#iniciarSesion" text="INICIAR SESION" />
+      <TextField fx:id="txtUsuario" layoutX="143.0" layoutY="136.0" />
+      <Label fx:id="labBienvenido" layoutX="80.0" layoutY="41.0" text="BIENVENIDO">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="labContra" layoutX="37.0" layoutY="197.0" text="Contraseña: " />
+      <Label fx:id="labUsuario" layoutX="56.0" layoutY="140.0" text="Usuario: " />
+      <Label fx:id="labBienvenido1" layoutX="95.0" layoutY="81.0" text="DE NUEVO">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgCons" fitHeight="219.0" fitWidth="246.0" layoutX="340.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\jdavd\Desktop\ProyectoFundamentos\gg.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

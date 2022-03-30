@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentacion.PantallaListarPropiedadesController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="426.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="378.0">
+         <fill>
+            <RadialGradient centerY="0.5" cycleMethod="REFLECT" focusDistance="0.5116279069767442" radius="0.37209302325581395">
+               <stops>
+                  <Stop color="#3c342bb8" />
+                  <Stop color="#998e7c9a" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#938770" height="351.0" layoutX="14.0" layoutY="50.0" opacity="0.41" stroke="BLACK" strokeType="INSIDE" width="351.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a18965" height="25.0" layoutX="14.0" layoutY="14.0" opacity="0.41" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+        <TableView fx:id="tblPropiedades" layoutX="34.0" layoutY="89.0" prefHeight="245.0" prefWidth="321.0">
+            <columns>
+                <TableColumn fx:id="Nombre" prefWidth="127.0" text="Nombre" />
+                <TableColumn fx:id="Direccion" prefWidth="100.0" text="Direccion" />
+                <TableColumn fx:id="Puntaje" prefWidth="93.0" text="Puntaje" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnRentarPropiedad" layoutX="131.0" layoutY="357.0" mnemonicParsing="false" onAction="#btnSeleccion" text="Mas Informacion">
+         <font>
+            <Font name="Segoe Print" size="11.0" />
+         </font></Button>
+      <Label fx:id="labelIntro" layoutX="128.0" layoutY="62.0" text="Lista de bares">
+         <font>
+            <Font name="Bookman Old Style Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelUsuario" layoutX="20.0" layoutY="18.0" text="Usuario: " />
+      <Label fx:id="labelRepetir" layoutX="60.0" layoutY="337.0" text=" " textAlignment="CENTER" textFill="RED" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
